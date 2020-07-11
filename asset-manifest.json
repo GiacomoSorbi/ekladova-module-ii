@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ekladova-module-ii/static/css/main.27f2347e.chunk.css",
-    "main.js": "/ekladova-module-ii/static/js/main.62643ccb.chunk.js",
-    "main.js.map": "/ekladova-module-ii/static/js/main.62643ccb.chunk.js.map",
+    "main.js": "/ekladova-module-ii/static/js/main.71c5c178.chunk.js",
+    "main.js.map": "/ekladova-module-ii/static/js/main.71c5c178.chunk.js.map",
     "runtime-main.js": "/ekladova-module-ii/static/js/runtime-main.819a4485.js",
     "runtime-main.js.map": "/ekladova-module-ii/static/js/runtime-main.819a4485.js.map",
     "static/js/2.bfac331c.chunk.js": "/ekladova-module-ii/static/js/2.bfac331c.chunk.js",
     "static/js/2.bfac331c.chunk.js.map": "/ekladova-module-ii/static/js/2.bfac331c.chunk.js.map",
     "index.html": "/ekladova-module-ii/index.html",
-    "precache-manifest.6d165ec1f4ce50aac178d24281755b46.js": "/ekladova-module-ii/precache-manifest.6d165ec1f4ce50aac178d24281755b46.js",
+    "precache-manifest.4003658bb44a45bb55a271fa28737eb2.js": "/ekladova-module-ii/precache-manifest.4003658bb44a45bb55a271fa28737eb2.js",
     "service-worker.js": "/ekladova-module-ii/service-worker.js",
     "static/css/main.27f2347e.chunk.css.map": "/ekladova-module-ii/static/css/main.27f2347e.chunk.css.map",
     "static/js/2.bfac331c.chunk.js.LICENSE.txt": "/ekladova-module-ii/static/js/2.bfac331c.chunk.js.LICENSE.txt",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.819a4485.js",
     "static/js/2.bfac331c.chunk.js",
     "static/css/main.27f2347e.chunk.css",
-    "static/js/main.62643ccb.chunk.js"
+    "static/js/main.71c5c178.chunk.js"
   ]
 }
