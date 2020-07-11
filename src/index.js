@@ -8,7 +8,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { Nav } from "./components";
 
 ReactDOM.render(
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <React.StrictMode>
       <Nav />
       <App />
