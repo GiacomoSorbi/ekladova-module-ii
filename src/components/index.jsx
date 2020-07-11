@@ -4,3 +4,4 @@ export { default as Input } from "./Input";
 export { default as Form } from "./Form";
 export { default as Button } from "./Button";
 export { default as Nav } from "./Nav";
+export { default as ShoppingCart } from "./ShoppingCart";

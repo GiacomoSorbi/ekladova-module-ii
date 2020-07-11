@@ -4,4 +4,9 @@
   margin: auto;
   background-color: white;
   border: 5px #fec8c4 solid;
+  cursor: pointer;
+}
+
+.contactForm-button:disabled {
+  cursor: no-drop;
 }

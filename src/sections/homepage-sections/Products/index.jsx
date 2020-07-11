@@ -1,53 +1,45 @@
-import React, { useState } from "react";
-import { Card, Image } from "../../../components";
+import React, { useState, useEffect } from "react";
+import { Card, Image, ShoppingCart } from "../../../components";
 import book from "../../../images/book.png";
 import "./products.css";
 import { productList } from "../../../utilities";
 
 const Products = () => {
   const [cart, setCart] = useState([]);
-  const [click, setClick] = useState(false);
 
   const onProductClick = (event) => {
-    setClick(true);
-    setTimeout(() => setClick(false), 1000);
     productList.map((el) => {
-      el.id === event.target.id || el.id + "card" === event.target.id
-        ? setCart(
-            cart
-              .filter((el) => {
-                return (
-                  el.id !== event.target.id &&
-                  el.id + "card" !== event.target.id
-                );
-              })
-              .concat(el)
-          )
-        : console.log("No");
+      if (el.id === event.target.id || el.id + "card" === event.target.id)
+        setCart(
+          cart
+            .filter((el) => {
+              return (
+                el.id !== event.target.id && el.id + "card" !== event.target.id
+              );
+            })
+            .concat(el)
+        );
     });
     console.log(event.target.id);
+  };
+
+  const onDeleteClick = (event) => {
+    setCart(
+      cart.filter((el) => {
+        return el.id !== event.target.parentNode.id;
+      })
+    );
   };
 
   return (
     <>
       <section className="product-container-outer">
-        <div id="productCart" className={click ? "cart-notice" : "hidden"}>
-          {cart.map((el) => {
-            return (
-              <>
-                <p>
-                  {el.name} - £{el.price}
-                </p>
-              </>
-            );
-          })}
-        </div>
         <h1 className="product-heading">Bestsellers</h1>
         <div className="product-container">
           {productList.map((el) => {
             return (
-              <div id={el.id} onClick={onProductClick} className="card-wrapper">
-                <Card className="product-card">
+              <div onClick={onProductClick} className="card-wrapper">
+                <Card id={el.id} className="product-card">
                   <Image
                     // id={el.id + "card"}
                     src={book}
@@ -60,6 +52,7 @@ const Products = () => {
               </div>
             );
           })}
+          <ShoppingCart onClick={onDeleteClick} cart={cart} />
         </div>
       </section>
     </>
