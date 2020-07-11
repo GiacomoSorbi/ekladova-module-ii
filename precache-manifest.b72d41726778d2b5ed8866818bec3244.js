@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f75e7e04173a61d49ed66712fdb639f6",
+    "revision": "1b4c6cdce9b012fec9b45e48ed24cca2",
     "url": "/ekladova-module-ii/index.html"
   },
   {
-    "revision": "447bf515dae8a714b7d2",
-    "url": "/ekladova-module-ii/static/css/main.328752b9.chunk.css"
+    "revision": "da07bd5e8bb1e11889f4",
+    "url": "/ekladova-module-ii/static/css/main.409a1b2f.chunk.css"
   },
   {
-    "revision": "60c5f28075c605fd2a17",
-    "url": "/ekladova-module-ii/static/js/2.9ddd7662.chunk.js"
+    "revision": "2ed9a38e04f1a74dcb23",
+    "url": "/ekladova-module-ii/static/js/2.3a31e9a4.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/ekladova-module-ii/static/js/2.9ddd7662.chunk.js.LICENSE.txt"
+    "url": "/ekladova-module-ii/static/js/2.3a31e9a4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "447bf515dae8a714b7d2",
-    "url": "/ekladova-module-ii/static/js/main.75833a23.chunk.js"
+    "revision": "da07bd5e8bb1e11889f4",
+    "url": "/ekladova-module-ii/static/js/main.eb356635.chunk.js"
   },
   {
     "revision": "b48c04269f629f74a3df",
     "url": "/ekladova-module-ii/static/js/runtime-main.819a4485.js"
+  },
+  {
+    "revision": "c90039f26cf7d3abf5e0d531fd0cf589",
+    "url": "/ekladova-module-ii/static/media/INSTApng.c90039f2.png"
   },
   {
     "revision": "60c279f53e918b90176a50b07bc9e7a6",
@@ -48,16 +52,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ekladova-module-ii/static/media/pen.e2529e87.jpg"
   },
   {
-    "revision": "f9badf58ab25b5e6d6f9696b66c1c485",
-    "url": "/ekladova-module-ii/static/media/stroke.f9badf58.svg"
-  },
-  {
     "revision": "5b24259a484c669ca7d85c0deee27f31",
     "url": "/ekladova-module-ii/static/media/stroke3.5b24259a.svg"
   },
   {
-    "revision": "bf1a760d095139b44bc8255859e19134",
-    "url": "/ekladova-module-ii/static/media/timeline.bf1a760d.svg"
+    "revision": "bc5441444ce8bb79aaf6436f8c924a07",
+    "url": "/ekladova-module-ii/static/media/timeline.bc544144.svg"
+  },
+  {
+    "revision": "35ab4196019650a4dc2d9ef7ae986e74",
+    "url": "/ekladova-module-ii/static/media/tweet.35ab4196.png"
   },
   {
     "revision": "3ac4965643f05986c1cdbe0362c943c6",
