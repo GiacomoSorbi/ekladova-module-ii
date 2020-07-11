@@ -1,0 +1,40 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2vw;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30%;
+  align-content: center;
+}
+
+.nav-list-element {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: black;
+  font-family: "Fondamento", cursive;
+}
+
+.nav-list-element:hover {
+  opacity: 0.7;
+}
+.nav-logo {
+  background-image: url("../../images/logo.png");
+  height: 7vw;
+  width: 7vw;
+  background-size: contain;
+}
+
+.cart-icon {
+  position: fixed;
+  cursor: pointer;
+  right: 0;
+  bottom: 2vw;
+  z-index: 999;
+  font-size: 3vw;
+}

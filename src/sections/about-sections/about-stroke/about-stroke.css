@@ -1,0 +1,69 @@
+.about-stroke-container {
+  margin: 10vw 0;
+}
+
+.timeline {
+  background-image: url("../../../images/stroke.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50vw;
+  background-position: right;
+}
+
+.about-circle-container {
+  background-image: url("../../../images/timeline.svg");
+  height: 40vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 85%;
+}
+
+.text p {
+  font-size: 1.2vw;
+  border: 3px solid #ffd2ce;
+  height: fit-content;
+  padding: 0.4vw;
+}
+
+.text p:nth-child(1) {
+  float: left;
+  width: 20%;
+  text-align: center;
+  margin: 0 8vw 0vw 12vw;
+}
+
+.text p:nth-child(2) {
+  width: 20%;
+  text-align: center;
+  margin: 4vw 10vw 10vw 0;
+  border: none;
+}
+
+.text p:nth-child(3) {
+  width: 20%;
+  text-align: center;
+  margin-top: 0;
+}
+
+.text p:nth-child(4) {
+  width: 29%;
+  text-align: center;
+  margin: 10vw 0 0 67vw;
+  border: none;
+}
+
+.text p:nth-child(5) {
+  width: 30%;
+  text-align: center;
+  border: 3px solid #ffa69e;
+  margin: 3vw 0 0 11vw;
+  padding: 1vw;
+  font-size: 1.5vw;
+}

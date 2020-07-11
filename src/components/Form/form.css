@@ -1,0 +1,37 @@
+.form-container {
+  background-color: #fdebe9;
+  margin: auto;
+  text-align: center;
+  padding: 1vw 2vw;
+}
+
+.form-containers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0.7vw 2vw;
+}
+
+.right,
+.left {
+  display: flex;
+  padding: 0.7vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  flex-direction: column;
+  width: 60%;
+}
+
+.contactForm-textarea {
+  padding: 0.7vw;
+  margin-bottom: 1vw;
+  width: 60%;
+  margin-top: 1vw;
+  background-color: #fec8c4;
+  border: 5px white solid;
+}

@@ -1,0 +1,16 @@
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-about,
+.left-about {
+  width: 50%;
+  height: 30vw;
+}
+
+.left-about {
+  background-color: #ffc7c2;
+}

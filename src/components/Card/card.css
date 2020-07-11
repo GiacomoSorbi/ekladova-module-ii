@@ -1,0 +1,55 @@
+.stroke-card {
+  border: 7px white solid;
+  background-color: #ffa69e49;
+  width: 10vw;
+  height: 15vw;
+  margin: 1vw;
+  padding: 0.5vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+}
+
+.product-card {
+  width: 10vw;
+  height: 10vw;
+  border: 5px white solid;
+  background-color: #ffffff5d;
+  margin: 1vw;
+  padding: 1vw;
+  transition: width linear 70ms;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.product-card:hover {
+  width: 12vw;
+  transition: width linear 200ms;
+}
+
+.about-card {
+  background-color: #ffffff5d;
+}
+
+@media only screen and (max-width: 450px) {
+  .stroke-card {
+    width: 30vw;
+    height: 35vw;
+    padding: 3vw;
+  }
+
+  .product-card {
+    width: 20vw;
+    height: 20vw;
+  }
+
+  .product-card:hover {
+    width: 20vw;
+  }
+}

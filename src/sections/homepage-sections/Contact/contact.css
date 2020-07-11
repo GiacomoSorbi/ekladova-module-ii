@@ -1,0 +1,16 @@
+.contact-text {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-container {
+  margin-bottom: 5vw;
+}
+
+.contact-text h1 {
+  z-index: 99;
+  text-align: center;
+  margin: 3vw auto;
+  width: 90%;
+  font-size: 2em;
+}

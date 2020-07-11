@@ -1,0 +1,36 @@
+.stroke-container {
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: right;
+  bottom: 7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  z-index: 999;
+}
+
+@media only screen and (max-width: 450px) {
+  .stroke-container {
+    bottom: 0;
+    background-size: initial;
+  }
+
+  .card-container {
+    width: 100%;
+  }
+  .stroke-card-text {
+    font-size: 4vw;
+  }
+}

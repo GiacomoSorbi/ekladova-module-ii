@@ -1,0 +1,41 @@
+.awardImage {
+  height: 4vw;
+}
+
+.pen {
+  height: 30vw;
+}
+
+.feature {
+  height: 2vw;
+  margin: 2vw;
+}
+
+.contact-hand {
+  height: 7vw;
+  position: relative;
+  right: 2vw;
+  bottom: 4vw;
+  z-index: 1;
+  margin-top: 2vw;
+  opacity: 0.6;
+}
+
+.about-woman {
+  height: 20vw;
+}
+
+.product-image {
+  height: 4vw;
+}
+
+@media only screen and (max-width: 450px) {
+  .awardImage {
+    height: 10vw;
+  }
+
+  .feature {
+    height: 7vw;
+    margin: 5vw 1vw;
+  }
+}
