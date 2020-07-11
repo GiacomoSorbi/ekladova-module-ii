@@ -1,31 +1,31 @@
 import React from "react";
 
 import "./about-stroke.css";
+import { Card, Image } from "../../../components";
+import facebook from "../../../images/facebook.png";
+import twitter from "../../../images/tweet.png";
+import insta from "../../../images/INSTApng.png";
 
 const AboutStroke = () => {
   return (
     <>
-      <section className="about-stroke-container">
-        <div className="timeline">
-          <div className="about-circle-container">
-            <div className="text">
-              <p id="n96-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-              <p id="n03-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-              <p id="n05-text">Ab itaque eius sed numquam repudiandae</p>
-              <p id="n13-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                itaque eius sed numquam repudiandae
-              </p>
-              <p id="n20-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                itaque eius sed numquam repudiandae
-              </p>
+      <section className="about-timeline-container">
+        <div className="about-contact-container">
+          <Card className="timeline-card">
+            <div className="icons">
+              <Image className="icon" src={facebook}></Image>
+              <Image className="icon" src={twitter}></Image>
+              <Image className="icon insta-icon" src={insta}></Image>
             </div>
-          </div>
+            <div className="about-contact-text">
+              <p>Email: example@gmail.com</p>
+              <p>Number: 082974628683</p>
+            </div>
+          </Card>
+          <Card className="timeline-card"></Card>
+        </div>
+        <div>
+          <div className="timeline-container"></div>
         </div>
       </section>
     </>

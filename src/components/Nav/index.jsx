@@ -11,7 +11,7 @@ const Nav = () => {
         </a>
         <ul className="nav-list">
           <li key="homeLink" className="nav-list-li">
-            <NavLink to="/" className="nav-list-element">
+            <NavLink to="/" exact className="nav-list-element">
               Home
             </NavLink>
           </li>
@@ -21,12 +21,12 @@ const Nav = () => {
             </NavLink>
           </li>
           <li key="portLink" className="nav-list-li">
-            <NavLink to="/" className="nav-list-element">
+            <NavLink to="/portfolio" className="nav-list-element">
               Portfolio
             </NavLink>
           </li>
           <li key="checkoutLink" className="nav-list-li">
-            <NavLink to="/" className="nav-list-element">
+            <NavLink to="/checkout" className="nav-list-element">
               Checkout
             </NavLink>
           </li>
