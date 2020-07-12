@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b06e721fdb6808583817a7a6a769fcec",
+    "revision": "ee307aaeaadbfa5fd0956b8e01694fba",
     "url": "/ekladova-module-ii/index.html"
   },
   {
-    "revision": "34717056ac55fc28636c",
-    "url": "/ekladova-module-ii/static/css/main.e768fafd.chunk.css"
+    "revision": "e149dfd057a9d65e21e1",
+    "url": "/ekladova-module-ii/static/css/main.fcfc4793.chunk.css"
   },
   {
-    "revision": "2ed9a38e04f1a74dcb23",
-    "url": "/ekladova-module-ii/static/js/2.3a31e9a4.chunk.js"
+    "revision": "c9a55c2e1ead64ae75d6",
+    "url": "/ekladova-module-ii/static/js/2.9e72f936.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/ekladova-module-ii/static/js/2.3a31e9a4.chunk.js.LICENSE.txt"
+    "url": "/ekladova-module-ii/static/js/2.9e72f936.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "34717056ac55fc28636c",
-    "url": "/ekladova-module-ii/static/js/main.fbff5022.chunk.js"
+    "revision": "e149dfd057a9d65e21e1",
+    "url": "/ekladova-module-ii/static/js/main.1fc76f30.chunk.js"
   },
   {
     "revision": "b48c04269f629f74a3df",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c90039f26cf7d3abf5e0d531fd0cf589",
     "url": "/ekladova-module-ii/static/media/INSTApng.c90039f2.png"
+  },
+  {
+    "revision": "48441d9cb2360eb98e46fd21207ce793",
+    "url": "/ekladova-module-ii/static/media/aboutStroke-1.48441d9c.svg"
   },
   {
     "revision": "60c279f53e918b90176a50b07bc9e7a6",
@@ -46,6 +50,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f6c7ae1746dc56de3b05bb7d9c16909b",
     "url": "/ekladova-module-ii/static/media/book.f6c7ae17.png"
+  },
+  {
+    "revision": "af59f27d5199fe44f6d3ebf8875ff311",
+    "url": "/ekladova-module-ii/static/media/child.af59f27d.png"
+  },
+  {
+    "revision": "01dfe66ce30659e9a9d87a8e102006a2",
+    "url": "/ekladova-module-ii/static/media/detective.01dfe66c.png"
+  },
+  {
+    "revision": "ce2ef9fc03e288a6cd6540a10274100a",
+    "url": "/ekladova-module-ii/static/media/fantasy.ce2ef9fc.png"
+  },
+  {
+    "revision": "0bb28dddab90b4ff5e2442e635418e0c",
+    "url": "/ekladova-module-ii/static/media/horror.0bb28ddd.png"
   },
   {
     "revision": "e2529e87ef8026f5efd36aa69a5bfd81",
