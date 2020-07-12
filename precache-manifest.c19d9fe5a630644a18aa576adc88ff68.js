@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9d33ab4b8b0d7bda4f93ef37f8314129",
+    "revision": "416c02bf8ce8aa535eeda72f5c750641",
     "url": "/ekladova-module-ii/index.html"
   },
   {
-    "revision": "058bec24d11860ded1f1",
+    "revision": "8e951066ec21112a8dd5",
     "url": "/ekladova-module-ii/static/css/main.72d2172d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ekladova-module-ii/static/js/2.d0025242.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "058bec24d11860ded1f1",
-    "url": "/ekladova-module-ii/static/js/main.cae2e519.chunk.js"
+    "revision": "8e951066ec21112a8dd5",
+    "url": "/ekladova-module-ii/static/js/main.3915b4da.chunk.js"
   },
   {
     "revision": "b48c04269f629f74a3df",
