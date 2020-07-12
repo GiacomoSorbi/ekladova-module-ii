@@ -5,7 +5,9 @@ import { cardChoices } from "../../../utilities";
 
 const Choices = () => {
   const [choices, setChoices] = useState({});
-  const [text, setText] = useState("");
+  const [text, setText] = useState(
+    "Pick a genre and words for your silly story"
+  );
   const [genre, setGenre] = useState("");
   const [click, setClick] = useState(false);
 

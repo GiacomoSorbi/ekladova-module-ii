@@ -13,9 +13,9 @@ const Banner = () => {
         </div>
         <div className="divider">
           <div className="award-container">
-            <Image src={award} className="awardImage"></Image>
+            <Image src={award} className="awardImage" alt="awards" />
             <p className="subhead">Awards and Nominations</p>
-            <Image src={award} className="awardImage"></Image>
+            <Image src={award} className="awardImage" alt="awards" />
           </div>
         </div>
       </header>

@@ -9,12 +9,7 @@ const Input = ({ type, id, onChange, className, label }) => {
           {label}:
         </label>
       )}
-      <input
-        className={className}
-        type={type}
-        id={id}
-        onChange={onChange}
-      ></input>
+      <input className={className} type={type} id={id} onChange={onChange} />
     </>
   );
 };

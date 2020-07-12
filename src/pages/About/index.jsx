@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <AboutBanner />
-      <AboutStoke></AboutStoke>
+      <AboutStoke />
     </>
   );
 };

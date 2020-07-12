@@ -12,13 +12,13 @@ const Pen = () => {
     <>
       <section className="feature-container">
         <div className="pen-picture-container">
-          <Image src={pen} className="pen"></Image>
+          <Image src={pen} className="pen" alt="pen" />
         </div>
         <div className="feature-image-container">
           <div className="feature-images">
-            <Image src={woman} className="feature"></Image>
-            <Image src={baby} className="feature"></Image>
-            <Image src={time} className="feature"></Image>
+            <Image src={woman} className="feature" alt="journal-time" />
+            <Image src={baby} className="feature" alt="journal-baby" />
+            <Image src={time} className="feature" alt="journal-time" />
           </div>
           <article>
             <p className="desc-text">
