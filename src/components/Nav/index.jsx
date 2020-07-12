@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <>
       <nav className="nav-bar">
-        <a href="/">
+        <a href="/ekladova-module-ii/">
           <div className="nav-logo"></div>
         </a>
         <ul className="nav-list">

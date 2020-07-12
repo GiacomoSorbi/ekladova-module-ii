@@ -10,15 +10,15 @@ const AboutBanner = () => {
       <div className="left-about left">
         <Card className="about-card stroke-card">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
-          doloremque placeat perspiciatis id amet. Sunt quae praesentium,
+          doloremque placeat
         </Card>
         <Card className="about-card stroke-card">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
-          doloremque placeat perspiciatis id amet. Sunt quae praesentium,
+          doloremque placeat
         </Card>
         <Card className="about-card stroke-card">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
-          doloremque placeat perspiciatis id amet. Sunt quae praesentium,
+          doloremque placeat
         </Card>
       </div>
       <div className="right-about right">

@@ -10,3 +10,7 @@
 .contactForm-button:disabled {
   cursor: no-drop;
 }
+
+.p-button {
+  margin: 3vw auto;
+}

@@ -1,7 +1,7 @@
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   padding: 2vw;
 }
 
@@ -32,8 +32,10 @@
   opacity: 0.7;
 }
 .nav-logo {
-  background-image: url("../../images/logo.png");
-  height: 7vw;
-  width: 7vw;
+  background-image: url("../../images/Call.png");
+  height: 3vw;
+  width: 9vw;
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: contain;
 }

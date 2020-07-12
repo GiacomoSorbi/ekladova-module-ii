@@ -9,24 +9,22 @@ const Products = () => {
 
   const onProductClick = (event) => {
     productList.map((el) => {
-      if (el.id === event.target.id || el.id + "card" === event.target.id)
+      if (el.id === event.currentTarget.id)
         setCart(
           cart
             .filter((el) => {
-              return (
-                el.id !== event.target.id && el.id + "card" !== event.target.id
-              );
+              return el.id !== event.currentTarget.id;
             })
             .concat(el)
         );
     });
-    console.log(event.target.id);
+    console.log(event.currentTarget.id);
   };
 
   const onDeleteClick = (event) => {
     setCart(
       cart.filter((el) => {
-        return el.id !== event.target.parentNode.id;
+        return el.id !== event.currentTarget.parentNode.id;
       })
     );
   };
@@ -38,14 +36,13 @@ const Products = () => {
         <div className="product-container">
           {productList.map((el) => {
             return (
-              <div onClick={onProductClick} className="card-wrapper">
-                <Card id={el.id} className="product-card">
-                  <Image
-                    // id={el.id + "card"}
-                    src={book}
-                    className="product-image"
-                    alt="book"
-                  />
+              <div className="card-wrapper">
+                <Card
+                  onClick={onProductClick}
+                  id={el.id}
+                  className="product-card"
+                >
+                  <Image src={book} className="product-image" alt="book" />
                   <p className="product-card-text">{el.name}</p>
                   <p className="product-card-text">£{el.price}</p>
                 </Card>

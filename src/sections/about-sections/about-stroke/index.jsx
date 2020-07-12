@@ -18,11 +18,23 @@ const AboutStroke = () => {
               <Image className="icon insta-icon" src={insta}></Image>
             </div>
             <div className="about-contact-text">
-              <p>Email: example@gmail.com</p>
-              <p>Number: 082974628683</p>
+              <p className="about-text">Email: example@gmail.com</p>
+              <p className="about-text">Number: 082974628683</p>
             </div>
           </Card>
-          <Card className="timeline-card"></Card>
+          <Card className="timeline-card">
+            <div style={{ width: 100 + "%" }}>
+              <iframe
+                width="300"
+                height="220"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=300&amp;height=220&amp;hl=en&amp;q=London+(Karen%20Smith)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              ></iframe>
+            </div>
+          </Card>
         </div>
         <div>
           <div className="timeline-container"></div>

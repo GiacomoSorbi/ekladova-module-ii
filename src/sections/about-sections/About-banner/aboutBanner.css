@@ -12,5 +12,8 @@
 }
 
 .left-about {
+  background-image: url("../../../images/aboutStroke-1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: #ffc7c2;
 }

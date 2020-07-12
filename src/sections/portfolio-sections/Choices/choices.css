@@ -1,0 +1,23 @@
+.p-game {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-choices-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-choices-container .left {
+  width: 50%;
+}
+
+.p-input-wrapper {
+  min-width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fec8c4;
+}

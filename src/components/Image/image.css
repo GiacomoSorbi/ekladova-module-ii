@@ -38,6 +38,10 @@
   margin: 1vw;
 }
 
+.p-choice-image {
+  max-height: 10vw;
+}
+
 @media only screen and (max-width: 450px) {
   .awardImage {
     height: 10vw;

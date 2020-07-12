@@ -1,12 +1,10 @@
 import React from "react";
 import "./card.css";
 
-const Card = ({ children, className, ...props }) => {
+const Card = ({ children, ...props }) => {
   return (
     <>
-      <div {...props} className={className}>
-        {children}
-      </div>
+      <div {...props}>{children}</div>
     </>
   );
 };

@@ -14,6 +14,10 @@
   padding: 0.7vw 2vw;
 }
 
+.p-form {
+  background-color: transparent;
+}
+
 .right,
 .left {
   display: flex;

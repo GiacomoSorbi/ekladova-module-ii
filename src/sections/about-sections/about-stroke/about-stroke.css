@@ -4,8 +4,8 @@
   justify-content: center;
   flex-direction: column;
   width: 25%;
-  border: 4px solid #ffc7c2;
   padding: 2vw 4vw;
+  text-align: center;
 }
 
 .about-timeline-container {
@@ -19,11 +19,14 @@
 
 .timeline-container {
   background-image: url("../../../images/timeline.svg");
-  height: 25vw;
-  width: 25vw;
+  height: 35vw;
+  width: 27vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .icons {
@@ -31,4 +34,12 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+.about-text {
+  text-align: center;
+}
+
+.about-contact-text {
+  margin: 0;
 }

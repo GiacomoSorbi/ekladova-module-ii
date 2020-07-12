@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 2%;
+  text-shadow: 0 0 0.5px black;
 }
 
 .product-card {
@@ -34,7 +35,46 @@
 }
 
 .about-card {
-  background-color: #ffffff5d;
+  background-color: transparent;
+  border: 5px #ffc7c2 solid;
+  padding: 1vw;
+}
+
+.timeline-card {
+  margin: 1vw;
+  border: 4px solid #ffc7c2;
+  width: 25vw;
+  height: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-choice-card {
+  max-width: 10vw;
+  height: 20vw;
+  padding: 0.5vw 0.2vw;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.p-choice-card:hover {
+  opacity: 0.8;
+}
+
+.opacity0 {
+  opacity: 0.3;
+}
+
+.p-game-container {
+  width: 45%;
+  text-align: center;
+  margin: auto;
+  border: 2px solid #ffd2ce;
+  padding: 2vw;
 }
 
 @media only screen and (max-width: 450px) {
