@@ -1,14 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./shoppingCart.css";
 import { Button } from "..";
 
 const ShoppingCart = ({ cart, onClick }) => {
   let totalPrice = 0;
+  let [price, setPrice] = useState(0);
   return (
     <>
       <div className="cart-notice">
         {cart.map((el) => {
-          totalPrice += el.price;
+          setPrice((price += el.price));
 
           return (
             <>
@@ -26,9 +27,7 @@ const ShoppingCart = ({ cart, onClick }) => {
             </>
           );
         })}
-        <p className={cart.length ? "totalPrice" : "hidden"}>
-          Total: £{totalPrice}
-        </p>
+        <p className={cart.length ? "totalPrice" : "hidden"}>Total: £{price}</p>
         <a href="/">
           <Button
             disabled={cart.length ? false : true}

@@ -18,7 +18,7 @@ const Products = () => {
             .concat(el)
         );
     });
-    console.log(event.currentTarget.id);
+    // console.log(event.currentTarget.id);
   };
 
   const onDeleteClick = (event) => {

@@ -19,7 +19,7 @@
 
 .timeline-container {
   background-image: url("../../../images/timeline.svg");
-  height: 35vw;
+  height: 27vw;
   width: 27vw;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,11 +29,30 @@
   justify-content: flex-end;
 }
 
+.about-time-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-text {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+
 .icons {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+.map-frame {
+  width: 22vw;
+  height: 12vw;
+  margin: 0;
 }
 
 .about-text {
