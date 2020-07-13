@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "109c202cf1597a6d74a5023755e27e5b",
+    "revision": "7350d0b741d88f0a55d0e1f9c9957034",
     "url": "/ekladova-module-ii/index.html"
   },
   {
-    "revision": "749a0229c1863f3bd3c6",
+    "revision": "070e63024a9963abe1f9",
     "url": "/ekladova-module-ii/static/css/main.5abbfb6e.chunk.css"
   },
   {
-    "revision": "a45646388e62a7b428d5",
-    "url": "/ekladova-module-ii/static/js/2.3482e9db.chunk.js"
+    "revision": "6fe2096b43f1f7a9a18b",
+    "url": "/ekladova-module-ii/static/js/2.6c1f4b3a.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/ekladova-module-ii/static/js/2.3482e9db.chunk.js.LICENSE.txt"
+    "url": "/ekladova-module-ii/static/js/2.6c1f4b3a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "749a0229c1863f3bd3c6",
-    "url": "/ekladova-module-ii/static/js/main.0dc5ff94.chunk.js"
+    "revision": "070e63024a9963abe1f9",
+    "url": "/ekladova-module-ii/static/js/main.89a147f1.chunk.js"
   },
   {
     "revision": "b48c04269f629f74a3df",
