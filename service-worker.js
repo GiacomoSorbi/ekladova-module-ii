@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ekladova-module-ii/precache-manifest.cfa83ca30c4a6ac199274902f9a95262.js"
+  "/ekladova-module-ii/precache-manifest.214affa1dcd4dc8ef7fda80b32fc26a3.js"
 );
 
 self.addEventListener('message', (event) => {
