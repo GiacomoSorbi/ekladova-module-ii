@@ -1,0 +1,15 @@
+.c-container {
+  height: 30vw;
+  background-color: #ffc7c2;
+}
+
+.c-display {
+  width: 50%;
+  height: inherit;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

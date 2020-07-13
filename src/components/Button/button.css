@@ -12,5 +12,12 @@
 }
 
 .p-button {
-  margin: 3vw auto;
+  background-color: white;
+  transition: background-color ease-in 300ms;
+  margin: 3vw;
+}
+
+.p-button:hover {
+  transition: background-color ease-out 300ms;
+  background-color: #fec8c4;
 }

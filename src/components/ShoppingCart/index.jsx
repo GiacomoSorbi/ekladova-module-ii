@@ -2,21 +2,30 @@ import React, { useState } from "react";
 import "./shoppingCart.css";
 import { Button } from "..";
 
-const ShoppingCart = ({ cart, onClick }) => {
-  // let totalPrice = 0;
-  let [price, setPrice] = useState(0);
+const ShoppingCart = ({ cart, setCart, buttonText, path, onButtonClick }) => {
+  let totalPrice = 0;
+  // let [price, setPrice] = useState(0);
+  const onDeleteClick = (event) => {
+    localStorage.removeItem(event.currentTarget.parentNode.id);
+    setCart(
+      cart.filter((el) => {
+        return el.id !== event.currentTarget.parentNode.id;
+      })
+    );
+    console.log(cart);
+  };
   return (
     <>
       <div className="cart-notice">
         {cart.map((el) => {
-          setPrice((price += el.price));
+          totalPrice += el.price;
 
           return (
             <>
-              <p id={el.id}>
+              <p className="oneItem" id={el.id}>
                 {el.name} - £{el.price}
                 <span
-                  onClick={onClick}
+                  onClick={onDeleteClick}
                   className="deleteIcon"
                   role="img"
                   aria-label="delete"
@@ -27,13 +36,16 @@ const ShoppingCart = ({ cart, onClick }) => {
             </>
           );
         })}
-        <p className={cart.length ? "totalPrice" : "hidden"}>Total: £{price}</p>
-        <a href="/">
+        <p className={cart.length ? "totalPrice" : "hidden"}>
+          Total: £{totalPrice}
+        </p>
+        <a href={path}>
           <Button
             disabled={cart.length ? false : true}
             className="contactForm-button"
+            onClick={onButtonClick}
           >
-            To checkout
+            {buttonText}
           </Button>
         </a>
       </div>

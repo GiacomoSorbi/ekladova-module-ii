@@ -21,3 +21,32 @@
   align-items: center;
   border-bottom: 1px solid #fec8c4;
 }
+
+.buttonContainer {
+  margin: auto;
+}
+
+.generated-text {
+  line-height: 3vw;
+}
+
+.redText {
+  color: red;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.angryText {
+  text-transform: uppercase;
+  text-decoration-line: underline overline;
+  color: rgb(80, 33, 33);
+  font-weight: bolder;
+  font-family: "Knewave", cursive;
+}
+
+.calmText {
+  color: rgb(117, 159, 173);
+  text-decoration: dotted 1px lightblue;
+  font-weight: bold;
+}

@@ -9,7 +9,7 @@ const Products = () => {
 
   const onProductClick = (event) => {
     productList.map((el) => {
-      if (el.id === event.currentTarget.id)
+      if (el.id === event.currentTarget.id) {
         setCart(
           cart
             .filter((el) => {
@@ -17,21 +17,16 @@ const Products = () => {
             })
             .concat(el)
         );
-    });
-    // console.log(event.currentTarget.id);
-  };
 
-  const onDeleteClick = (event) => {
-    setCart(
-      cart.filter((el) => {
-        return el.id !== event.currentTarget.parentNode.id;
-      })
-    );
+        console.log(localStorage);
+      }
+    });
   };
+  localStorage.setItem("cart items: ", JSON.stringify(cart));
 
   return (
     <>
-      <section className="product-container-outer">
+      <section id="productListSection" className="product-container-outer">
         <h1 className="product-heading">Bestsellers</h1>
         <div className="product-container">
           {productList.map((el) => {
@@ -49,7 +44,12 @@ const Products = () => {
               </div>
             );
           })}
-          <ShoppingCart onClick={onDeleteClick} cart={cart} />
+          <ShoppingCart
+            setCart={setCart}
+            buttonText="To checkout"
+            cart={cart}
+            path="/checkout"
+          />
         </div>
       </section>
     </>

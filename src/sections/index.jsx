@@ -6,3 +6,4 @@ export { default as Contact } from "./homepage-sections/Contact";
 export { default as AboutBanner } from "./about-sections/About-banner";
 export { default as AboutStoke } from "./about-sections/about-timeline";
 export { default as Choices } from "./portfolio-sections/Choices";
+export { default as CheckoutContainer } from "./checkout-sections/checkout-container";
