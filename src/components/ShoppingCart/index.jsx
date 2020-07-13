@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./shoppingCart.css";
 import { Button } from "..";
+import { Link } from "react-router-dom";
 
 const ShoppingCart = ({ cart, setCart, buttonText, path, onButtonClick }) => {
   let totalPrice = 0;
@@ -39,7 +40,7 @@ const ShoppingCart = ({ cart, setCart, buttonText, path, onButtonClick }) => {
         <p className={cart.length ? "totalPrice" : "hidden"}>
           Total: £{totalPrice}
         </p>
-        <a href={path}>
+        <Link to={path}>
           <Button
             disabled={cart.length ? false : true}
             className="contactForm-button"
@@ -47,7 +48,7 @@ const ShoppingCart = ({ cart, setCart, buttonText, path, onButtonClick }) => {
           >
             {buttonText}
           </Button>
-        </a>
+        </Link>
       </div>
     </>
   );

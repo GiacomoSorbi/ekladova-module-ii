@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Checkout-container.css";
 import { ShoppingCart, Button } from "../../../components";
+import { Link } from "react-router-dom";
 
 const CheckoutContainer = ({ children }) => {
   const itemDisplay = localStorage.getItem("cart items: ");
@@ -25,16 +26,16 @@ const CheckoutContainer = ({ children }) => {
         ) : checkout ? (
           <>
             <p>Thank you!</p>
-            <a href="/#productListSection">
+            <Link to={"/#productListSection"}>
               <Button className="contactForm-button">Buy more stuff</Button>
-            </a>
+            </Link>
           </>
         ) : (
           <>
             <p>Add some items to checkout</p>
-            <a href="/#productListSection">
+            <Link to="/#productListSection">
               <Button className="contactForm-button">To products</Button>
-            </a>
+            </Link>
           </>
         )}
       </div>

@@ -48,7 +48,7 @@ const Products = () => {
             setCart={setCart}
             buttonText="To checkout"
             cart={cart}
-            path="/checkout"
+            path={"/checkout"}
           />
         </div>
       </section>
