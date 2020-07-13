@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ekladova-module-ii/static/css/main.72d2172d.chunk.css",
-    "main.js": "/ekladova-module-ii/static/js/main.3915b4da.chunk.js",
-    "main.js.map": "/ekladova-module-ii/static/js/main.3915b4da.chunk.js.map",
+    "main.css": "/ekladova-module-ii/static/css/main.9fbbe5b1.chunk.css",
+    "main.js": "/ekladova-module-ii/static/js/main.12a25c3b.chunk.js",
+    "main.js.map": "/ekladova-module-ii/static/js/main.12a25c3b.chunk.js.map",
     "runtime-main.js": "/ekladova-module-ii/static/js/runtime-main.819a4485.js",
     "runtime-main.js.map": "/ekladova-module-ii/static/js/runtime-main.819a4485.js.map",
-    "static/js/2.d0025242.chunk.js": "/ekladova-module-ii/static/js/2.d0025242.chunk.js",
-    "static/js/2.d0025242.chunk.js.map": "/ekladova-module-ii/static/js/2.d0025242.chunk.js.map",
+    "static/js/2.9e72f936.chunk.js": "/ekladova-module-ii/static/js/2.9e72f936.chunk.js",
+    "static/js/2.9e72f936.chunk.js.map": "/ekladova-module-ii/static/js/2.9e72f936.chunk.js.map",
     "index.html": "/ekladova-module-ii/index.html",
-    "precache-manifest.c19d9fe5a630644a18aa576adc88ff68.js": "/ekladova-module-ii/precache-manifest.c19d9fe5a630644a18aa576adc88ff68.js",
+    "precache-manifest.82d6a3fcf4b68734a444e546996936d7.js": "/ekladova-module-ii/precache-manifest.82d6a3fcf4b68734a444e546996936d7.js",
     "service-worker.js": "/ekladova-module-ii/service-worker.js",
-    "static/css/main.72d2172d.chunk.css.map": "/ekladova-module-ii/static/css/main.72d2172d.chunk.css.map",
-    "static/js/2.d0025242.chunk.js.LICENSE.txt": "/ekladova-module-ii/static/js/2.d0025242.chunk.js.LICENSE.txt",
+    "static/css/main.9fbbe5b1.chunk.css.map": "/ekladova-module-ii/static/css/main.9fbbe5b1.chunk.css.map",
+    "static/js/2.9e72f936.chunk.js.LICENSE.txt": "/ekladova-module-ii/static/js/2.9e72f936.chunk.js.LICENSE.txt",
     "static/media/INSTApng.png": "/ekladova-module-ii/static/media/INSTApng.c90039f2.png",
     "static/media/aboutBanner.css": "/ekladova-module-ii/static/media/aboutStroke-1.48441d9c.svg",
     "static/media/award.png": "/ekladova-module-ii/static/media/award.60c279f5.png",
@@ -24,15 +24,15 @@
     "static/media/horror.png": "/ekladova-module-ii/static/media/horror.0bb28ddd.png",
     "static/media/pen.jpg": "/ekladova-module-ii/static/media/pen.e2529e87.jpg",
     "static/media/stroke3.svg": "/ekladova-module-ii/static/media/stroke3.5b24259a.svg",
-    "static/media/about-stroke.css": "/ekladova-module-ii/static/media/timeline.bc544144.svg",
+    "static/media/about-timeline.css": "/ekladova-module-ii/static/media/timeline.bc544144.svg",
     "static/media/tweet.png": "/ekladova-module-ii/static/media/tweet.35ab4196.png",
     "static/media/woman.jpg": "/ekladova-module-ii/static/media/woman.3ac49656.jpg",
     "static/media/woman.png": "/ekladova-module-ii/static/media/woman.859fe552.png"
   },
   "entrypoints": [
     "static/js/runtime-main.819a4485.js",
-    "static/js/2.d0025242.chunk.js",
-    "static/css/main.72d2172d.chunk.css",
-    "static/js/main.3915b4da.chunk.js"
+    "static/js/2.9e72f936.chunk.js",
+    "static/css/main.9fbbe5b1.chunk.css",
+    "static/js/main.12a25c3b.chunk.js"
   ]
 }
