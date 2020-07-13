@@ -3,7 +3,7 @@ import "./shoppingCart.css";
 import { Button } from "..";
 
 const ShoppingCart = ({ cart, onClick }) => {
-  let totalPrice = 0;
+  // let totalPrice = 0;
   let [price, setPrice] = useState(0);
   return (
     <>
