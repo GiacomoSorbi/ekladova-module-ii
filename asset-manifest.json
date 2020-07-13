@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ekladova-module-ii/static/css/main.9fbbe5b1.chunk.css",
-    "main.js": "/ekladova-module-ii/static/js/main.12a25c3b.chunk.js",
-    "main.js.map": "/ekladova-module-ii/static/js/main.12a25c3b.chunk.js.map",
+    "main.css": "/ekladova-module-ii/static/css/main.5abbfb6e.chunk.css",
+    "main.js": "/ekladova-module-ii/static/js/main.ed733449.chunk.js",
+    "main.js.map": "/ekladova-module-ii/static/js/main.ed733449.chunk.js.map",
     "runtime-main.js": "/ekladova-module-ii/static/js/runtime-main.819a4485.js",
     "runtime-main.js.map": "/ekladova-module-ii/static/js/runtime-main.819a4485.js.map",
-    "static/js/2.9e72f936.chunk.js": "/ekladova-module-ii/static/js/2.9e72f936.chunk.js",
-    "static/js/2.9e72f936.chunk.js.map": "/ekladova-module-ii/static/js/2.9e72f936.chunk.js.map",
+    "static/js/2.52e00b40.chunk.js": "/ekladova-module-ii/static/js/2.52e00b40.chunk.js",
+    "static/js/2.52e00b40.chunk.js.map": "/ekladova-module-ii/static/js/2.52e00b40.chunk.js.map",
     "index.html": "/ekladova-module-ii/index.html",
-    "precache-manifest.82d6a3fcf4b68734a444e546996936d7.js": "/ekladova-module-ii/precache-manifest.82d6a3fcf4b68734a444e546996936d7.js",
+    "precache-manifest.69ad19fa88793d411403c29f06439af4.js": "/ekladova-module-ii/precache-manifest.69ad19fa88793d411403c29f06439af4.js",
     "service-worker.js": "/ekladova-module-ii/service-worker.js",
-    "static/css/main.9fbbe5b1.chunk.css.map": "/ekladova-module-ii/static/css/main.9fbbe5b1.chunk.css.map",
-    "static/js/2.9e72f936.chunk.js.LICENSE.txt": "/ekladova-module-ii/static/js/2.9e72f936.chunk.js.LICENSE.txt",
+    "static/css/main.5abbfb6e.chunk.css.map": "/ekladova-module-ii/static/css/main.5abbfb6e.chunk.css.map",
+    "static/js/2.52e00b40.chunk.js.LICENSE.txt": "/ekladova-module-ii/static/js/2.52e00b40.chunk.js.LICENSE.txt",
     "static/media/INSTApng.png": "/ekladova-module-ii/static/media/INSTApng.c90039f2.png",
     "static/media/aboutBanner.css": "/ekladova-module-ii/static/media/aboutStroke-1.48441d9c.svg",
     "static/media/award.png": "/ekladova-module-ii/static/media/award.60c279f5.png",
@@ -31,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.819a4485.js",
-    "static/js/2.9e72f936.chunk.js",
-    "static/css/main.9fbbe5b1.chunk.css",
-    "static/js/main.12a25c3b.chunk.js"
+    "static/js/2.52e00b40.chunk.js",
+    "static/css/main.5abbfb6e.chunk.css",
+    "static/js/main.ed733449.chunk.js"
   ]
 }
