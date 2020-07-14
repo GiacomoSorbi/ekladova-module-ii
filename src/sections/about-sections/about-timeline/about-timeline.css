@@ -62,3 +62,20 @@
 .about-contact-text {
   margin: 0;
 }
+
+@media only screen and (max-width: 450px) {
+  .about-timeline-container {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .timeline-container {
+    height: 55vw;
+    width: 55vw;
+  }
+
+  .map-frame {
+    height: inherit;
+    width: inherit;
+  }
+}

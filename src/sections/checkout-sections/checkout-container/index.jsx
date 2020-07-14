@@ -14,30 +14,32 @@ const CheckoutContainer = ({ children }) => {
   };
 
   return (
-    <div className="c-container">
-      <div className="c-display">
-        {checkoutCart.length && checkout === false ? (
-          <ShoppingCart
-            setCart={setCheckoutCart}
-            cart={checkoutCart}
-            buttonText="Checkout"
-            onButtonClick={onButtonClick}
-          />
-        ) : checkout ? (
-          <>
-            <p>Thank you!</p>
-            <Link to={"/#productListSection"}>
-              <Button className="contactForm-button">Buy more stuff</Button>
-            </Link>
-          </>
-        ) : (
-          <>
-            <p>Add some items to checkout</p>
-            <Link to="/#productListSection">
-              <Button className="contactForm-button">To products</Button>
-            </Link>
-          </>
-        )}
+    <div className="checkout">
+      <div className="c-container">
+        <div className="c-display">
+          {checkoutCart.length && checkout === false ? (
+            <ShoppingCart
+              setCart={setCheckoutCart}
+              cart={checkoutCart}
+              buttonText="Checkout"
+              onButtonClick={onButtonClick}
+            />
+          ) : checkout ? (
+            <>
+              <p>Thank you!</p>
+              <Link to={"/#productListSection"}>
+                <Button className="contactForm-button">Buy more stuff</Button>
+              </Link>
+            </>
+          ) : (
+            <>
+              <p>Add some items to checkout</p>
+              <Link to="/#productListSection">
+                <Button className="contactForm-button">To products</Button>
+              </Link>
+            </>
+          )}
+        </div>
       </div>
     </div>
   );

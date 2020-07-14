@@ -13,7 +13,7 @@ const Contact = () => {
     <>
       <section className="contact-container">
         <div className="contact-text">
-          <h1>Contact Me</h1>
+          <h1 className="h1-header">Contact Me</h1>
         </div>
 
         <Form>

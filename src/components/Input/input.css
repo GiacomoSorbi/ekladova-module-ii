@@ -5,3 +5,10 @@
   background-color: #fec8c4;
   border: 5px white solid;
 }
+
+@media only screen and (max-width: 450px) {
+  .contactForm-input {
+    width: 90%;
+    margin: auto;
+  }
+}

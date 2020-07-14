@@ -50,3 +50,24 @@
   text-decoration: dotted 1px lightblue;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 450px) {
+  .p-choices-container {
+    flex-direction: column;
+  }
+
+  .p-choices-container .left {
+    width: fit-content;
+    flex-direction: column;
+  }
+
+  .p-choices-container .right {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .p-input-wrapper {
+    display: block;
+    text-align: center;
+  }
+}

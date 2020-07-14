@@ -17,3 +17,27 @@
   background-repeat: no-repeat;
   background-color: #ffc7c2;
 }
+
+@media only screen and (max-width: 450px) {
+  .banner-container {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .left-about,
+  .right-about {
+    height: fit-content;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .banner-container .left {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner-container .right {
+    display: flex;
+  }
+}

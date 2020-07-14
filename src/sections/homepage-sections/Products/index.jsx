@@ -27,7 +27,7 @@ const Products = () => {
   return (
     <>
       <section id="productListSection" className="product-container-outer">
-        <h1 className="product-heading">Bestsellers</h1>
+        <h1 className="h1-header">Bestsellers</h1>
         <div className="product-container">
           {productList.map((el) => {
             return (

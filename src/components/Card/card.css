@@ -15,7 +15,6 @@
 
 .product-card {
   width: 10vw;
-  height: 10vw;
   border: 5px white solid;
   background-color: #ffffff5d;
   margin: 1vw;
@@ -85,11 +84,38 @@
   }
 
   .product-card {
-    width: 20vw;
-    height: 20vw;
+    width: 27vw;
+    min-height: 35vw;
+  }
+  .product-card:hover {
+    width: 27vw;
+  }
+
+  .product-card-text {
+    margin: 0.5vw;
+    text-align: center;
   }
 
   .product-card:hover {
     width: 20vw;
+  }
+
+  .about-card {
+    height: fit-content;
+    min-height: 30vw;
+    margin: 5vw auto;
+  }
+
+  .timeline-card {
+    height: fit-content;
+    min-height: 40vw;
+    width: fit-content;
+    min-width: 50vw;
+    padding: 2vw;
+  }
+
+  .p-game-container {
+    margin: 5vw auto;
+    width: 90%;
   }
 }

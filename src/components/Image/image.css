@@ -51,4 +51,21 @@
     height: 7vw;
     margin: 5vw 1vw;
   }
+
+  .product-image {
+    height: 8vw;
+  }
+
+  .about-woman {
+    height: 50vw;
+    margin: 5vw auto;
+  }
+
+  .icon {
+    height: 10vw;
+  }
+
+  .p-choice-image {
+    max-height: 30vw;
+  }
 }

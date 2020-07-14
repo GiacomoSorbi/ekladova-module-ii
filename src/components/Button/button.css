@@ -21,3 +21,10 @@
   transition: background-color ease-out 300ms;
   background-color: #fec8c4;
 }
+
+@media only screen and (max-width: 450px) {
+  .contactForm-button {
+    width: fit-content;
+    height: fit-content;
+  }
+}

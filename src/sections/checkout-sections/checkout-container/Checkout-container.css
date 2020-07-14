@@ -13,3 +13,20 @@
   align-items: center;
   flex-direction: column;
 }
+
+@media only screen and (max-width: 450px) {
+  .checkout {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .c-container {
+    height: 90%;
+    width: 100%;
+  }
+  .c-display {
+    width: 80%;
+    height: 100%;
+  }
+}

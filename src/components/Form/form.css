@@ -39,3 +39,13 @@
   background-color: #fec8c4;
   border: 5px white solid;
 }
+
+@media only screen and (max-width: 450px) {
+  .form-containers .left {
+    flex-direction: column;
+  }
+
+  .form-containers .right {
+    width: 90%;
+  }
+}

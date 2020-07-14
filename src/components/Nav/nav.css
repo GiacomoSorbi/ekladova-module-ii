@@ -39,3 +39,24 @@
   background-position: center;
   background-size: contain;
 }
+
+@media only screen and (max-width: 450px) {
+  .nav-bar {
+    justify-content: center;
+  }
+
+  .nav-logo {
+    opacity: 0;
+    position: absolute;
+  }
+
+  .nav-list {
+    width: 90%;
+    margin: auto;
+    padding: 0;
+  }
+
+  .nav-list-li {
+    margin: 0 1vw;
+  }
+}
