@@ -18,16 +18,29 @@
   background-color: #ffc7c2;
 }
 
-@media only screen and (max-width: 450px) {
-  .banner-container {
-    flex-direction: column;
-    height: fit-content;
-  }
-
+@media only screen and (max-width: 660px) {
   .left-about,
   .right-about {
     height: fit-content;
     background-size: cover;
+  }
+
+  .banner-container .left {
+    width: 90%;
+    margin: auto;
+  }
+
+  .banner-container {
+    margin: auto;
+    width: 100%;
+    flex-direction: column;
+    height: fit-content;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .left-about,
+  .right-about {
     width: 100%;
   }
 

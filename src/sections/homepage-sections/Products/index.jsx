@@ -2,28 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Card, Image, ShoppingCart } from "../../../components";
 import book from "../../../images/book.png";
 import "./products.css";
-import { productList } from "../../../utilities";
 
-const Products = () => {
-  const [cart, setCart] = useState([]);
-
-  const onProductClick = (event) => {
-    productList.map((el) => {
-      if (el.id === event.currentTarget.id) {
-        setCart(
-          cart
-            .filter((el) => {
-              return el.id !== event.currentTarget.id;
-            })
-            .concat(el)
-        );
-
-        console.log(localStorage);
-      }
-    });
-  };
-  localStorage.setItem("cart items: ", JSON.stringify(cart));
-
+const Products = ({ cart, setCart, onProductClick, productList }) => {
   return (
     <>
       <section id="productListSection" className="product-container-outer">

@@ -18,25 +18,29 @@ const ShoppingCart = ({ cart, setCart, buttonText, path, onButtonClick }) => {
   return (
     <>
       <div className="cart-notice">
-        {cart.map((el) => {
-          totalPrice += el.price;
+        {cart.length ? (
+          cart.map((el) => {
+            totalPrice += el.price;
 
-          return (
-            <>
-              <p className="oneItem" id={el.id}>
-                {el.name} - £{el.price}
-                <span
-                  onClick={onDeleteClick}
-                  className="deleteIcon"
-                  role="img"
-                  aria-label="delete"
-                >
-                  ❌
-                </span>
-              </p>
-            </>
-          );
-        })}
+            return (
+              <>
+                <p className="oneItem" id={el.id}>
+                  {el.name} - £{el.price}
+                  <span
+                    onClick={onDeleteClick}
+                    className="deleteIcon"
+                    role="img"
+                    aria-label="delete"
+                  >
+                    ❌
+                  </span>
+                </p>
+              </>
+            );
+          })
+        ) : (
+          <p>Choose your products</p>
+        )}
         <p className={cart.length ? "totalPrice" : "hidden"}>
           Total: £{totalPrice}
         </p>

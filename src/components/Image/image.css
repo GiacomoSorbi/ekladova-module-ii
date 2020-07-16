@@ -42,6 +42,26 @@
   max-height: 10vw;
 }
 
+@media only screen and (max-width: 1000px) {
+  .pen {
+    height: 35vw;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .feature {
+    height: 3vw;
+  }
+  .pen {
+    height: 40vw;
+  }
+
+  .about-woman {
+    height: 30vw;
+    margin: 5vw;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .awardImage {
     height: 10vw;

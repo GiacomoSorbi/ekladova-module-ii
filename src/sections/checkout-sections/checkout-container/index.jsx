@@ -3,33 +3,28 @@ import "./Checkout-container.css";
 import { ShoppingCart, Button } from "../../../components";
 import { Link } from "react-router-dom";
 
-const CheckoutContainer = ({ children }) => {
-  const itemDisplay = localStorage.getItem("cart items: ");
-
-  const [checkoutCart, setCheckoutCart] = useState(JSON.parse(itemDisplay));
+const CheckoutContainer = ({ cart, setCart }) => {
   const [checkout, setCheckout] = useState(false);
 
   const onButtonClick = () => {
     setCheckout(true);
+    setTimeout(() => setCart([]), 1000);
   };
 
   return (
     <div className="checkout">
       <div className="c-container">
         <div className="c-display">
-          {checkoutCart.length && checkout === false ? (
+          {cart.length && checkout === false ? (
             <ShoppingCart
-              setCart={setCheckoutCart}
-              cart={checkoutCart}
+              setCart={setCart}
+              cart={cart}
               buttonText="Checkout"
               onButtonClick={onButtonClick}
             />
           ) : checkout ? (
             <>
               <p>Thank you!</p>
-              <Link to={"/#productListSection"}>
-                <Button className="contactForm-button">Buy more stuff</Button>
-              </Link>
             </>
           ) : (
             <>

@@ -47,6 +47,14 @@
   position: absolute;
 }
 
+@media only screen and (max-width: 1000px) {
+  .banner,
+  .wrapper {
+    height: 60vw;
+    margin: auto;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .banner {
     background-image: url("../../../images/banner-noname.jpg");

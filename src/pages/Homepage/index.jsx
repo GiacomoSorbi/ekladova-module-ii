@@ -1,13 +1,18 @@
 import React from "react";
 import { Banner, Pen, Textboxes, Products, Contact } from "../../sections";
 
-const Homepage = () => {
+const Homepage = ({ cart, setCart, onProductClick, productList }) => {
   return (
     <>
       <Banner />
       <Pen />
       <Textboxes />
-      <Products />
+      <Products
+        cart={cart}
+        setCart={setCart}
+        onProductClick={onProductClick}
+        productList={productList}
+      />
       <Contact />
     </>
   );

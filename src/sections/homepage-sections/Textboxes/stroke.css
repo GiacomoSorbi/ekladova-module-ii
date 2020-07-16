@@ -21,6 +21,29 @@
   z-index: 999;
 }
 
+@media only screen and (max-width: 1000px) {
+  .stroke-container {
+    background-size: inherit;
+  }
+
+  .card-container {
+    width: 50%;
+    margin-top: 5vw;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .card-container {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .card-container {
+    width: 70%;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .stroke-container {
     bottom: 0;
