@@ -40,12 +40,16 @@
   border: 5px white solid;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
   .form-containers .left {
     flex-direction: column;
   }
 
   .form-containers .right {
     width: 90%;
+  }
+
+  .contactForm-textarea {
+    width: 100%;
   }
 }

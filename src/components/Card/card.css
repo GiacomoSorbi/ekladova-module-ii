@@ -26,7 +26,7 @@
   align-items: center;
   justify-content: center;
   z-index: 1;
-  min-height: 20vw;
+  min-height: 15vw;
 }
 
 .product-card:hover {
@@ -89,12 +89,26 @@
     height: 25vw;
     width: 15vw;
   }
+  .product-card {
+    min-height: 20vw;
+    min-width: 15vw;
+  }
+  .about-contact-container .timeline-card {
+    min-width: 30vw;
+    min-height: 25vw;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .p-choice-card {
+    min-width: 30vw;
+    max-height: 19vw;
+  }
 }
 
 @media only screen and (max-width: 680px) {
   .product-card {
-    min-height: 23vw;
-    min-width: 15vw;
+    min-height: 27vw;
+    min-width: 17vw;
   }
 
   .stroke-card {
@@ -115,11 +129,8 @@
     width: 20vw;
   }
 
-  .product-card {
-    min-height: 25vw;
-  }
-  .product-card:hover {
-    width: 25vw;
+  .p-choice-card {
+    min-width: 40vw;
   }
 }
 
@@ -134,7 +145,7 @@
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
   .stroke-card {
     width: 30vw;
     padding: 3vw;
@@ -169,6 +180,10 @@
     width: fit-content;
     min-width: 70vw;
     padding: 2vw;
+  }
+  .about-contact-container .timeline-card {
+    min-height: 40vw;
+    min-width: 80vw;
   }
 
   .p-game-container {

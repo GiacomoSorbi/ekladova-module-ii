@@ -20,28 +20,23 @@ function App() {
     });
   };
 
+  const renderHomepage = () => (
+    <Homepage
+      cart={cart}
+      setCart={setCart}
+      onProductClick={onProductClick}
+      productList={productList}
+    />
+  );
+  const renderCheckout = () => <Checkout cart={cart} setCart={setCart} />;
+
   return (
     <div className="App">
       <Switch>
-        <Route
-          path="/"
-          exact
-          render={() => (
-            <Homepage
-              cart={cart}
-              setCart={setCart}
-              onProductClick={onProductClick}
-              productList={productList}
-            />
-          )}
-        />
+        <Route path="/" exact render={renderHomepage} />
         <Route path="/about" exact component={About} />
         <Route path="/portfolio" exact component={Portfolio} />
-        <Route
-          path="/checkout"
-          exact
-          component={() => <Checkout cart={cart} setCart={setCart} />}
-        />
+        <Route path="/checkout" exact component={renderCheckout} />
       </Switch>
     </div>
   );

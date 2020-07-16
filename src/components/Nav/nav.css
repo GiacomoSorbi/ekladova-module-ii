@@ -59,9 +59,10 @@
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
   .nav-bar {
     justify-content: center;
+    padding: 0;
   }
 
   .nav-logo {

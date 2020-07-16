@@ -63,18 +63,24 @@
   margin: 0;
 }
 
-@media only screen and (max-width: 660px) {
-  .about-timeline-container {
-    width: 80%;
-  }
-
-  .about-contact-container {
-    width: 50%;
-  }
+@media only screen and (max-width: 890px) {
   .map-frame {
     height: inherit;
     width: inherit;
   }
+}
+
+@media only screen and (max-width: 770px) {
+  .about-timeline-container {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .about-contact-container {
+    width: 50%;
+  }
+
   .timeline-text {
     width: 90%;
   }

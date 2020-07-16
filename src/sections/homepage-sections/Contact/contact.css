@@ -6,18 +6,3 @@
 .contact-container {
   margin-bottom: 5vw;
 }
-
-.h1-header {
-  z-index: 99;
-  text-align: center;
-  margin: 3vw auto;
-  width: 90%;
-  font-size: 2.5vw;
-}
-
-@media only screen and (max-width: 450px) {
-  .h1-header {
-    font-size: 6vw;
-    width: 100%;
-  }
-}
