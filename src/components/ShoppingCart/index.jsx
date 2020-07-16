@@ -7,7 +7,6 @@ const ShoppingCart = ({ cart, setCart, buttonText, path, onButtonClick }) => {
   let totalPrice = 0;
   // let [price, setPrice] = useState(0);
   const onDeleteClick = (event) => {
-    localStorage.removeItem(event.currentTarget.parentNode.id);
     setCart(
       cart.filter((el) => {
         return el.id !== event.currentTarget.parentNode.id;

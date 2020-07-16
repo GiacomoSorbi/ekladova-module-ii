@@ -16,8 +16,6 @@ function App() {
             })
             .concat(el)
         );
-
-        console.log(localStorage);
       }
     });
   };
