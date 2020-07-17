@@ -21,9 +21,9 @@ const AboutBanner = () => {
           doloremque placeat
         </Card>
       </div>
-      <div className="right-about right">
+      <aside className="right-about right">
         <Image src={woman} className="about-woman" alt="woman"></Image>
-      </div>
+      </aside>
     </section>
   );
 };

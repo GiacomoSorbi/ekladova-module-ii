@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Card, Image, ShoppingCart } from "../../../components";
 import book from "../../../images/book.png";
 import "./products.css";
@@ -11,7 +11,7 @@ const Products = ({ cart, setCart, onProductClick, productList }) => {
         <div className="product-container">
           {productList.map((el) => {
             return (
-              <div className="card-wrapper">
+              <div key={el.id} className="card-wrapper">
                 <Card
                   onClick={onProductClick}
                   id={el.id}

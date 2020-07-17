@@ -1,7 +1,7 @@
 import React from "react";
 import "./input.css";
 
-const Input = ({ type, id, onChange, className, label }) => {
+const Input = ({ type, id, onChange, className, label, ...props }) => {
   return (
     <>
       {label && (
@@ -9,7 +9,13 @@ const Input = ({ type, id, onChange, className, label }) => {
           {label}:
         </label>
       )}
-      <input className={className} type={type} id={id} onChange={onChange} />
+      <input
+        {...props}
+        className={className}
+        type={type}
+        id={id}
+        onChange={onChange}
+      />
     </>
   );
 };

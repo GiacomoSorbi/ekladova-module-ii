@@ -1,15 +1,11 @@
 import React from "react";
 import "./stroke.css";
-import stroke from "../../../images/stroke3.svg";
 import { Card } from "../../../components";
 
 const Textboxes = () => {
   return (
     <>
-      <div
-        style={{ backgroundImage: "url(" + stroke + ") " }}
-        className="stroke-container"
-      >
+      <section className="stroke-container">
         <div className="card-container">
           <Card className="stroke-card">
             <p className="stroke-card-text">
@@ -48,7 +44,7 @@ const Textboxes = () => {
             </p>
           </Card>
         </div>
-      </div>
+      </section>
     </>
   );
 };

@@ -22,7 +22,7 @@ const Nav = () => {
           </li>
           <li key="portLink" className="nav-list-li">
             <NavLink to="/portfolio" className="nav-list-element">
-              Portfolio
+              Portfolio-Game
             </NavLink>
           </li>
           <li key="checkoutLink" className="nav-list-li">

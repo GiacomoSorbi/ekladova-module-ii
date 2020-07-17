@@ -13,13 +13,25 @@ const AboutStroke = () => {
         <div className="about-contact-container">
           <Card className="timeline-card">
             <div className="icons">
-              <a target="_blank" href="https://www.facebook.com/">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.facebook.com/"
+              >
                 <Image className="icon" src={facebook} alt="facebook icon" />
               </a>
-              <a target="_blank" href="https://www.twitter.com/">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.twitter.com/"
+              >
                 <Image className="icon" src={twitter} alr="twitter icon" />
               </a>
-              <a target="_blank" href="https://www.instagram.com/">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.instagram.com/"
+              >
                 <Image
                   className="icon insta-icon"
                   src={insta}
@@ -36,25 +48,26 @@ const AboutStroke = () => {
           <Card className="timeline-card">
             <div style={{ width: 100 + "%" }}>
               <iframe
+                title="map"
                 className="map-frame"
                 scrolling="no"
-                frameborder="0"
+                frameBorder="0"
                 src="https://maps.google.com/maps?width=300&amp;height=220&amp;hl=en&amp;q=London+(Karen%20Smith)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               />
             </div>
           </Card>
         </div>
-        <div className="about-time-container">
+        <aside className="about-time-container">
           <div className="timeline-container"></div>
-          <div className="timeline-text">
+          <article className="timeline-text">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Doloremque modi dolores deleniti nobis? Voluptates sed sequi
               animi, eligendi ullam a labore, atque consectetur at sapiente sint
               architecto quod. Error, consequatur!
             </p>
-          </div>
-        </div>
+          </article>
+        </aside>
       </section>
     </>
   );

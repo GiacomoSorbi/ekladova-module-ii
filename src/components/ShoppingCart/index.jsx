@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./shoppingCart.css";
 import { Button } from "..";
 import { Link } from "react-router-dom";
@@ -12,11 +12,10 @@ const ShoppingCart = ({ cart, setCart, buttonText, path, onButtonClick }) => {
         return el.id !== event.currentTarget.parentNode.id;
       })
     );
-    console.log(cart);
   };
   return (
     <>
-      <div className="cart-notice">
+      <section className="cart-notice">
         {cart.length ? (
           cart.map((el) => {
             totalPrice += el.price;
@@ -52,7 +51,7 @@ const ShoppingCart = ({ cart, setCart, buttonText, path, onButtonClick }) => {
             {buttonText}
           </Button>
         </Link>
-      </div>
+      </section>
     </>
   );
 };

@@ -1,11 +1,11 @@
 .c-container {
-  height: 30vw;
+  min-height: 30vw;
   background-color: #ffc7c2;
 }
 
 .c-display {
   width: 50%;
-  height: inherit;
+  min-height: 30vw;
   margin: auto;
   background-color: white;
   display: flex;
@@ -18,15 +18,21 @@
   .checkout {
     height: 70vh;
   }
-  .c-container {
-    height: 80%;
+  .c-display {
+    height: inherit;
   }
   .c-container {
     height: inherit;
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 680px) {
+  .c-display {
+    height: inherit;
+  }
+}
+
+@media only screen and (max-width: 780px) {
   .checkout {
     height: 90vh;
     display: flex;

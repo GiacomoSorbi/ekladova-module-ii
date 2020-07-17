@@ -1,12 +1,7 @@
-import React, { useState } from "react";
-import { Input, Button } from "..";
+import React from "react";
 import "./form.css";
 
-const Form = ({ children, className }) => {
-  const onSubmit = (event) => {
-    event.preventDefault();
-  };
-
+const Form = ({ children, className, onSubmit }) => {
   return (
     <>
       <section className={className || "form-container"}>

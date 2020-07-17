@@ -1,21 +1,21 @@
 import React, { useState } from "react";
 import "./Checkout-container.css";
-import { ShoppingCart, Button } from "../../../components";
+import { ShoppingCart, Button, Image } from "../../../components";
 import { Link } from "react-router-dom";
-
+import cat from "../../../images/cat.webp";
 const CheckoutContainer = ({ cart, setCart }) => {
   const [checkout, setCheckout] = useState(false);
 
   const onButtonClick = () => {
     setCheckout(true);
-    setTimeout(() => setCart([]), 1000);
+    setTimeout(() => setCart([]), 1500);
   };
 
   return (
-    <div className="checkout">
+    <section className="checkout">
       <div className="c-container">
         <div className="c-display">
-          {cart.length && checkout === false ? (
+          {cart.length && !checkout ? (
             <ShoppingCart
               setCart={setCart}
               cart={cart}
@@ -25,6 +25,7 @@ const CheckoutContainer = ({ cart, setCart }) => {
           ) : checkout ? (
             <>
               <p>Thank you!</p>
+              <Image src={cat} />
             </>
           ) : (
             <>
@@ -36,7 +37,7 @@ const CheckoutContainer = ({ cart, setCart }) => {
           )}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -76,7 +76,8 @@
 
   .banner .hidden {
     font-family: "Fondamento", cursive;
-    font-size: 4vw;
+    font-size: 6vw;
+    margin-bottom: 3vw;
     opacity: 1;
     position: static;
   }

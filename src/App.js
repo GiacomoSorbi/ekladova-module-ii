@@ -31,14 +31,14 @@ function App() {
   const renderCheckout = () => <Checkout cart={cart} setCart={setCart} />;
 
   return (
-    <div className="App">
+    <main className="App">
       <Switch>
         <Route path="/" exact render={renderHomepage} />
         <Route path="/about" exact component={About} />
         <Route path="/portfolio" exact component={Portfolio} />
         <Route path="/checkout" exact component={renderCheckout} />
       </Switch>
-    </div>
+    </main>
   );
 }
 
