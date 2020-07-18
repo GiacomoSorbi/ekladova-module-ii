@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9302d412dca66987c64e518ea3bb57a",
+    "revision": "ba72b52e6dd05824287f2bd348d16f5b",
     "url": "/ekladova-module-ii/index.html"
   },
   {
-    "revision": "319dfc20723f17138131",
-    "url": "/ekladova-module-ii/static/css/main.e142b094.chunk.css"
+    "revision": "3529cbb7066e6cba2d24",
+    "url": "/ekladova-module-ii/static/css/main.43fd5d10.chunk.css"
   },
   {
-    "revision": "3b7035f35905b4da4639",
-    "url": "/ekladova-module-ii/static/js/2.a7360fe2.chunk.js"
+    "revision": "d027cf64e5ade302b0fa",
+    "url": "/ekladova-module-ii/static/js/2.76a14b6d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/ekladova-module-ii/static/js/2.a7360fe2.chunk.js.LICENSE.txt"
+    "url": "/ekladova-module-ii/static/js/2.76a14b6d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "319dfc20723f17138131",
-    "url": "/ekladova-module-ii/static/js/main.5f307ce6.chunk.js"
+    "revision": "3529cbb7066e6cba2d24",
+    "url": "/ekladova-module-ii/static/js/main.611abe1e.chunk.js"
   },
   {
     "revision": "b48c04269f629f74a3df",
     "url": "/ekladova-module-ii/static/js/runtime-main.819a4485.js"
+  },
+  {
+    "revision": "9f2d79d8ccbcbdfb12326dec2426b759",
+    "url": "/ekladova-module-ii/static/media/Call.9f2d79d8.png"
   },
   {
     "revision": "c90039f26cf7d3abf5e0d531fd0cf589",
@@ -50,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f6c7ae1746dc56de3b05bb7d9c16909b",
     "url": "/ekladova-module-ii/static/media/book.f6c7ae17.png"
+  },
+  {
+    "revision": "c094e2cdfbf724c2702bdde8021eb3e3",
+    "url": "/ekladova-module-ii/static/media/cat.c094e2cd.webp"
   },
   {
     "revision": "af59f27d5199fe44f6d3ebf8875ff311",
