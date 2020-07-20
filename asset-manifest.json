@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ekladova-module-ii/static/css/main.43fd5d10.chunk.css",
-    "main.js": "/ekladova-module-ii/static/js/main.611abe1e.chunk.js",
-    "main.js.map": "/ekladova-module-ii/static/js/main.611abe1e.chunk.js.map",
+    "main.css": "/ekladova-module-ii/static/css/main.7a8846fe.chunk.css",
+    "main.js": "/ekladova-module-ii/static/js/main.45253f2c.chunk.js",
+    "main.js.map": "/ekladova-module-ii/static/js/main.45253f2c.chunk.js.map",
     "runtime-main.js": "/ekladova-module-ii/static/js/runtime-main.819a4485.js",
     "runtime-main.js.map": "/ekladova-module-ii/static/js/runtime-main.819a4485.js.map",
     "static/js/2.76a14b6d.chunk.js": "/ekladova-module-ii/static/js/2.76a14b6d.chunk.js",
     "static/js/2.76a14b6d.chunk.js.map": "/ekladova-module-ii/static/js/2.76a14b6d.chunk.js.map",
     "index.html": "/ekladova-module-ii/index.html",
-    "precache-manifest.f5bb6db316c5ec933d33f54c114a2ad0.js": "/ekladova-module-ii/precache-manifest.f5bb6db316c5ec933d33f54c114a2ad0.js",
+    "precache-manifest.b7883ec72ebe573bed98585085a36a9f.js": "/ekladova-module-ii/precache-manifest.b7883ec72ebe573bed98585085a36a9f.js",
     "service-worker.js": "/ekladova-module-ii/service-worker.js",
-    "static/css/main.43fd5d10.chunk.css.map": "/ekladova-module-ii/static/css/main.43fd5d10.chunk.css.map",
+    "static/css/main.7a8846fe.chunk.css.map": "/ekladova-module-ii/static/css/main.7a8846fe.chunk.css.map",
     "static/js/2.76a14b6d.chunk.js.LICENSE.txt": "/ekladova-module-ii/static/js/2.76a14b6d.chunk.js.LICENSE.txt",
     "static/media/nav.css": "/ekladova-module-ii/static/media/Call.9f2d79d8.png",
     "static/media/INSTApng.png": "/ekladova-module-ii/static/media/INSTApng.c90039f2.png",
@@ -19,7 +19,7 @@
     "static/media/baby.png": "/ekladova-module-ii/static/media/baby.aae5e9c3.png",
     "static/media/banner.css": "/ekladova-module-ii/static/media/bannertree.c19c7c2b.jpg",
     "static/media/book.png": "/ekladova-module-ii/static/media/book.f6c7ae17.png",
-    "static/media/cat.webp": "/ekladova-module-ii/static/media/cat.c094e2cd.webp",
+    "static/media/cat.png": "/ekladova-module-ii/static/media/cat.837e09ed.png",
     "static/media/child.png": "/ekladova-module-ii/static/media/child.af59f27d.png",
     "static/media/detective.png": "/ekladova-module-ii/static/media/detective.01dfe66c.png",
     "static/media/fantasy.png": "/ekladova-module-ii/static/media/fantasy.ce2ef9fc.png",
@@ -28,13 +28,13 @@
     "static/media/stroke.css": "/ekladova-module-ii/static/media/stroke3.5b24259a.svg",
     "static/media/about-timeline.css": "/ekladova-module-ii/static/media/timeline.bc544144.svg",
     "static/media/tweet.png": "/ekladova-module-ii/static/media/tweet.35ab4196.png",
-    "static/media/woman.jpg": "/ekladova-module-ii/static/media/woman.3ac49656.jpg",
-    "static/media/woman.png": "/ekladova-module-ii/static/media/woman.859fe552.png"
+    "static/media/woman.png": "/ekladova-module-ii/static/media/woman.859fe552.png",
+    "static/media/woman.jpg": "/ekladova-module-ii/static/media/woman.cca71bdd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.819a4485.js",
     "static/js/2.76a14b6d.chunk.js",
-    "static/css/main.43fd5d10.chunk.css",
-    "static/js/main.611abe1e.chunk.js"
+    "static/css/main.7a8846fe.chunk.css",
+    "static/js/main.45253f2c.chunk.js"
   ]
 }

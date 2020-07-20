@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba72b52e6dd05824287f2bd348d16f5b",
+    "revision": "c2ee164836fb1c5dfc489a724f571c1c",
     "url": "/ekladova-module-ii/index.html"
   },
   {
-    "revision": "3529cbb7066e6cba2d24",
-    "url": "/ekladova-module-ii/static/css/main.43fd5d10.chunk.css"
+    "revision": "23d8d1f63903c9c25270",
+    "url": "/ekladova-module-ii/static/css/main.7a8846fe.chunk.css"
   },
   {
     "revision": "d027cf64e5ade302b0fa",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ekladova-module-ii/static/js/2.76a14b6d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3529cbb7066e6cba2d24",
-    "url": "/ekladova-module-ii/static/js/main.611abe1e.chunk.js"
+    "revision": "23d8d1f63903c9c25270",
+    "url": "/ekladova-module-ii/static/js/main.45253f2c.chunk.js"
   },
   {
     "revision": "b48c04269f629f74a3df",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ekladova-module-ii/static/media/book.f6c7ae17.png"
   },
   {
-    "revision": "c094e2cdfbf724c2702bdde8021eb3e3",
-    "url": "/ekladova-module-ii/static/media/cat.c094e2cd.webp"
+    "revision": "837e09edf3c2ceed5727af545fe127b0",
+    "url": "/ekladova-module-ii/static/media/cat.837e09ed.png"
   },
   {
     "revision": "af59f27d5199fe44f6d3ebf8875ff311",
@@ -92,11 +92,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ekladova-module-ii/static/media/tweet.35ab4196.png"
   },
   {
-    "revision": "3ac4965643f05986c1cdbe0362c943c6",
-    "url": "/ekladova-module-ii/static/media/woman.3ac49656.jpg"
-  },
-  {
     "revision": "859fe552f61f9ff0351e24e06b0384fb",
     "url": "/ekladova-module-ii/static/media/woman.859fe552.png"
+  },
+  {
+    "revision": "cca71bdd5dbe0844105a49b57d804116",
+    "url": "/ekladova-module-ii/static/media/woman.cca71bdd.jpg"
   }
 ]);
