@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import "./Checkout-container.css";
 import { ShoppingCart, Button, Image } from "../../../components";
 import { Link } from "react-router-dom";
-import cat from "../../../images/cat.webp";
+import cat from "../../../images/cat.png";
+
 const CheckoutContainer = ({ cart, setCart }) => {
   const [checkout, setCheckout] = useState(false);
 

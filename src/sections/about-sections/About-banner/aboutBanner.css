@@ -24,7 +24,7 @@
   }
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 675px) {
   .left-about,
   .right-about {
     height: fit-content;
@@ -38,12 +38,14 @@
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 550px) {
   .left-about,
   .right-about {
     width: 98%;
   }
+}
 
+@media only screen and (max-width: 450px) {
   .banner-container .left {
     flex-direction: column;
     align-items: center;

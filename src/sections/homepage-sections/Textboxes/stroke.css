@@ -45,7 +45,7 @@
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
   .stroke-container {
     bottom: 0;
     background-size: initial;
